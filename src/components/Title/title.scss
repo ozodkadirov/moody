@@ -1,0 +1,20 @@
+.Typography{
+  color: #000;
+  font-weight: 700;
+
+  &__h1, &__1{
+    font-size: 48px;
+  }
+
+  &__h2, &__2{
+    font-size: 28px;
+  }
+
+  &__h3, &__3{
+    font-size: 18px;
+  }
+
+  &__bodytext, &__p{
+    font-size: 16px;
+  }
+}

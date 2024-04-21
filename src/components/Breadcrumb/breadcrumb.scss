@@ -1,0 +1,25 @@
+.Breadcrumb{
+  padding: 54px 0;
+
+  &__row{
+    *{
+      font-size: 18px;
+      text-transform: lowercase !important;
+    }
+  }
+
+  &__link{
+    border: none;
+    border-radius: 0 !important;
+    background: transparent !important;
+    font-weight: 400;
+    color: #323334 !important;
+    border-bottom: 1px solid transparent;
+    transition: all .3s linear !important;
+
+    &:hover{
+      border-bottom: 1px solid #323334;
+      transition: all .3s linear !important;
+    }
+  }
+}

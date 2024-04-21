@@ -1,0 +1,19 @@
+.Button{
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #000;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 16px 0;
+
+  &__primary{
+    background: #323334;
+    color: #fff;
+  }
+
+  &__secondary{
+    background: transparent;
+    color: #323334;
+  }
+}

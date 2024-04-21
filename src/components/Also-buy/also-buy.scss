@@ -1,0 +1,19 @@
+.Also-buy{
+  padding-bottom: 116px;
+  
+  &__container{
+    position: relative;
+  }
+
+  &__arrows{
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    right: -16px;
+    transform: translateY(-50%);
+
+    & > *{
+      cursor: pointer;
+    }
+  }
+}

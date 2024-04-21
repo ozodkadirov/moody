@@ -1,0 +1,121 @@
+.Footer{
+  background: #323334;
+
+  *{
+    color: #ffffff !important;
+  }
+
+  &__copyright{
+    background: #222;
+    font-weight: 300 !important;
+    text-align: center;
+    color: #fff !important;
+    padding: 18px 0;
+  }
+
+  &__widget{
+
+    &-list{
+      padding-top: 34px;
+
+      & > * + *{
+        margin-top: 16px;
+      }
+    }
+
+    &-link{
+      //font-family: var(--font-family);
+      font-weight: 300;
+      font-size: 14px;
+      //color: #fff;
+    }
+
+    &--blog{
+
+      & > .Footer__widget-blog__item{
+        padding: 33px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      }
+
+      & > * {
+        &:last-child {
+          border-bottom: none !important;
+        }
+      }
+    }
+
+    &-blog{
+
+      &__item{
+        & > * + *{
+          margin-top: 10px !important;
+        }
+
+        .Typography__p.Footer__widget-text{
+          color: #ffffff !important;
+        }
+
+        .Typography__p.Footer__widget-text.Footer__widget-blog__comment{
+          font-size: 14px !important;
+          color: rgba(255, 255, 255, 0.5) !important;
+        }
+      }
+      &__title{
+        *{
+          font-weight: 400 !important;
+          font-size: 24px !important;
+          color: rgba(255, 255, 255, 0.5) !important;
+        }
+
+        .Typography__p{
+          font-size: 14px !important;
+          padding-bottom: 6px;
+        }
+      }
+    }
+
+    &--other{
+      & > * + *{
+        margin-top: 41px !important;
+      }
+    }
+
+    &-contact > * + *{
+      margin-top: 8px !important;
+    }
+
+    &-contact .Typography__p{
+      //font-family: var(--font-family);
+      font-weight: 700 !important;
+      //font-size: 16px;
+      line-height: 137%;
+      //color: #fff;
+    }
+
+    &-links{
+      padding-right: 40px;
+    }
+
+    &-button{
+      color: rgba(0, 0, 0, .88) !important;
+      background: transparent !important;
+      border: none !important;
+      font-size: 25px !important;
+    }
+
+    &-text{
+      //font-family: var(--font-family);
+      font-weight: 400 !important;
+      //font-size: 16px;
+      line-height: 137%;
+      color: rgba(255, 255, 255, 0.5) !important;
+    }
+    &s{
+      padding: 50px 0;
+    }
+  }
+
+  &__title{
+
+  }
+}
