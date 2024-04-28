@@ -23,7 +23,15 @@
       "stars": 4,
       "gender": "Man",
       "top": true,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Bedroom",
+          "Outdoor",
+          "Conscious"
+        ]
+      }
     },
     {
       "id": 2,
@@ -47,7 +55,15 @@
       "stars": 4,
       "gender": "Woman",
       "top": false,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Living Room",
+          "Premium Quality",
+          "Classic Collection"
+        ]
+      }
     },
     {
       "id": 3,
@@ -71,7 +87,13 @@
       "stars": 4,
       "gender": "Man",
       "top": true,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Child Room"
+        ]
+      }
     },
     {
       "id": 4,
@@ -95,14 +117,23 @@
       "stars": 4,
       "gender": "Woman",
       "top": true,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Bathroom",
+          "Premium Quality",
+          "Outdoor"
+        ]
+      }
     },
     {
       "id": 5,
       "image": "/assets/images/product5.png",
       "title": "Checked Duvet Cover Set",
       "colors": [
-        "yellow", "grey"
+        "yellow",
+        "grey"
       ],
       "price": 24,
       "sizes": [
@@ -119,7 +150,13 @@
       "stars": 4,
       "gender": "Man",
       "top": false,
-      "quantity":      1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Child Room"
+        ]
+      }
     },
     {
       "id": 6,
@@ -143,7 +180,15 @@
       "stars": 4,
       "gender": "Man",
       "top": true,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Living Room",
+          "Child Room",
+          "Conscious"
+        ]
+      }
     },
     {
       "id": 7,
@@ -168,7 +213,15 @@
       "stars": 4,
       "gender": "Woman",
       "top": true,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Living Room",
+          "Child Room",
+          "Conscious"
+        ]
+      }
     },
     {
       "id": 8,
@@ -192,14 +245,24 @@
       "stars": 4,
       "gender": "Woman",
       "top": false,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Living Room",
+          "Child Room",
+          "Conscious"
+        ]
+      }
     },
     {
       "id": 9,
       "image": "/assets/images/product9.png",
       "title": "Checked Duvet Cover Set",
       "colors": [
-        "pink", "lightgreen", "grey"
+        "pink",
+        "lightgreen",
+        "grey"
       ],
       "price": 24,
       "sizes": [
@@ -216,14 +279,21 @@
       "stars": 4,
       "gender": "Man",
       "top": false,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Child Room"
+        ]
+      }
     },
     {
       "id": 10,
       "image": "/assets/images/product10.png",
       "title": "Checked Duvet Cover Set",
       "colors": [
-        "brown", "grey"
+        "brown",
+        "grey"
       ],
       "price": 24,
       "sizes": [
@@ -240,14 +310,26 @@
       "stars": 4,
       "gender": "Woman",
       "top": true,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Bathroom",
+          "Bedroom",
+          "Child Room",
+          "Conscious",
+          "Premium Quality"
+        ]
+      }
     },
     {
       "id": 11,
       "image": "/assets/images/product11.png",
       "title": "Checked Duvet Cover Set",
       "colors": [
-        "march", "grey", "lightbrown"
+        "march",
+        "grey",
+        "lightbrown"
       ],
       "price": 24,
       "sizes": [
@@ -264,14 +346,27 @@
       "stars": 5,
       "gender": "Woman",
       "top": false,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Bathroom",
+          "Bedroom",
+          "Child Room",
+          "Conscious",
+          "Premium Quality",
+          "Classic Collection"
+        ]
+      }
     },
     {
       "id": 12,
       "image": "/assets/images/product12.png",
       "title": "Checked Duvet Cover Set",
       "colors": [
-        "lightbrown", "march", "grey"
+        "lightbrown",
+        "march",
+        "grey"
       ],
       "price": 24,
       "sizes": [
@@ -288,7 +383,19 @@
       "stars": 4,
       "gender": "Man",
       "top": false,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Bathroom",
+          "Bedroom",
+          "Child Room",
+          "Conscious",
+          "Premium Quality",
+          "Classic Collection",
+          "Living Room"
+        ]
+      }
     },
     {
       "id": 13,
@@ -313,7 +420,16 @@
       "stars": 2,
       "gender": "Woman",
       "top": true,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Conscious",
+          "Premium Quality",
+          "Classic Collection",
+          "Living Room"
+        ]
+      }
     },
     {
       "id": 14,
@@ -337,7 +453,17 @@
       "stars": 4,
       "gender": "Woman",
       "top": false,
-      "quantity": 1
+      "quantity": 1,
+      "categories": {
+        "arrivals": [],
+        "shopby": [
+          "Bathroom",
+          "Bedroom",
+          "Child Room",
+          "Conscious",
+          "Premium Quality"
+        ]
+      }
     }
   ],
   "blogs": [

@@ -4,7 +4,7 @@ import './index.scss';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { CartProvider } from 'react-use-cart';
-import{ContextProvider} from './context';
+import { ContextProvider } from './context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,9 +12,7 @@ root.render(
     <BrowserRouter>
       <CartProvider>
         <ContextProvider>
-          <App>
-            
-          </App>
+          <App />
         </ContextProvider>
       </CartProvider>
     </BrowserRouter>
