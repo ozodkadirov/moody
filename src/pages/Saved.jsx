@@ -4,10 +4,14 @@ import {Flex} from "antd";
 import Cart from "../components/Cart";
 import Product from "../images/product2.png"
 import Breadcrumb from "../components/Breadcrumb";
+import { Helmet } from "react-helmet";
 
 const Saved = () => {
   return(
       <Fragment>
+        <Helmet>
+                <title>Moody - Saved</title>
+            </Helmet>
           <Breadcrumb current={"Like more"} />
           <section className="Saved">
               <Container>

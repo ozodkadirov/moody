@@ -18,6 +18,7 @@ import Input from "../components/Input";
 import { default as Btn } from "../components/Button";
 import axios from "axios";
 import { Context } from "../context";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
     const { Data } = useContext(Context);
@@ -68,6 +69,14 @@ const Home = () => {
             />
         </Fragment>
     })
+
+    return(
+        <Fragment>
+            <Helmet>
+                <title>Moody - Home</title>
+            </Helmet>
+        </Fragment>
+    )
 
     return (
         <Fragment>

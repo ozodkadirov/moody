@@ -8,6 +8,7 @@ import Cart from "../components/Cart";
 import Product1 from "../images/product1.png";
 import { default as Btn } from "../components/Button";
 import { Context } from "../context";
+import { Helmet } from "react-helmet";
 
 const ColorsArray = [
     "white",
@@ -138,6 +139,10 @@ const Catalog = () => {
 
     return (
         <Fragment>
+
+<Helmet>
+                <title>Moody - Catalog</title>
+            </Helmet>
             <Breadcrumb />
             <section className="Sales">
                 <Container>
